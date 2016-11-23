@@ -10,7 +10,7 @@ import java.util.UUID;
 
 public class Constants {
     //    cmd
-    public static final String CMD_TURN_ON = "";
+    public static final String CMD_TURN_ON = "10010";
     public static final String CMD_TURN_OFF = "";
     public static final String CMD_QUERY = "";
 
