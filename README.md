@@ -1,0 +1,1 @@
+This is an Android BLE demo.For Android API level 18+.
