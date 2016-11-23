@@ -10,13 +10,13 @@ import java.util.UUID;
 
 public class Constants {
     //    cmd
-    public static final String CMD_TURN_ON = "";
-    public static final String CMD_TURN_OFF = "";
-    public static final String CMD_QUERY = "";
+    public static final String CMD_TURN_ON = "YOUR_CMD";
+    public static final String CMD_TURN_OFF = "YOUR_CMD";
+    public static final String CMD_QUERY = "YOUR_CMD";
 
     //  uuid
-    public static final UUID UUID_CONNECT = UUID.fromString("");
-    public static final UUID UUID_SEND_CMD = UUID.fromString("");
+    public static final UUID UUID_CONNECT = UUID.fromString("YOUR_UUID");
+    public static final UUID UUID_SEND_CMD = UUID.fromString("YOUR_UUID");
 
     //  cmd interval
     public static final long CMD_INTERVAL = 100;
