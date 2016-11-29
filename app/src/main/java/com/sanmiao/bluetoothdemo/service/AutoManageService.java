@@ -66,7 +66,7 @@ public class AutoManageService extends Service {
         @Override
         public void onServicesDiscovered(BluetoothGatt gatt, int status) {
             LLog.d(AutoManageService.this.getClass(), "service discovered---address" + gatt.getDevice().getAddress() + "status-" + status);
-            sendCmdDelay(gatt, Constants.CMD_TURN_ON);
+            writeDelay(gatt, Constants.CMD_TURN_ON);
         }
 
         @Override
@@ -104,7 +104,7 @@ public class AutoManageService extends Service {
         sendBroadcast(intent);
     }
 
-    private void sendCmdDelay(final BluetoothGatt gatt, final String cmd) {
+    private void writeDelay(final BluetoothGatt gatt, final String cmd) {
         mHandler.postDelayed(new Runnable() {
             @Override
             public void run() {
